@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Lilita One', cursive; 
+    background-color: #E7E7E7;
+}
+
+strong{
+    color: #FFBA00;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.container,.logo-portfolio-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar{
+    height: 125px;
+}
+
+.logo-portfolio{
+    margin-top: 40px;
+}
+.nav-item{
+    font-size: 24px;
+    margin-left: 32px;
+}
+.intro-text{
+    width: 375px;
+    height: 135px;
+    font-size: 24px;
+}
+.header-img{
+    width: 825px;
+    height: 613px;
+}
