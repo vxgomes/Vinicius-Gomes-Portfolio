@@ -21,10 +21,11 @@ a{
 .container,.logo-portfolio-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 .nav-bar{
     height: 125px;
+    
 }
 
 .logo-portfolio{
@@ -38,8 +39,26 @@ a{
     width: 375px;
     height: 135px;
     font-size: 24px;
+    margin-bottom: 80px;
 }
+.redes-sociais-container{
+    display: flex;
+    align-items: center;
+}
+
+.projects-button{
+    padding: 10px 25px;
+    font-size: 32px;
+    box-sizing: border-box;
+    background: linear-gradient(95.85deg, #00A5FE 6.98%, #008CF8 85.25%);
+    border: 2px solid #000000;
+    border-radius: 30px;
+    margin-right: 26px;
+}
+.redes-icons{
+    margin-right: 7px;
+}
+
 .header-img{
-    width: 825px;
-    height: 613px;
+   width: 800px;
 }
