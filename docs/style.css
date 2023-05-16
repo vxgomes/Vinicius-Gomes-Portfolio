@@ -62,3 +62,33 @@ a{
 .header-img{
    width: 800px;
 }
+.technologies-text{
+    text-align: center;
+    font-size: 50px;
+}
+.container-tech{
+    display: flex;
+    flex-direction: column;
+    
+}
+.technologies-logos{
+    width: 150px;
+    display: inline-block;
+    
+}
+.tech-itens{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.box-item{
+    display: flex;
+    width: 100%;
+    border-bottom: #D9D9D9 4px solid;
+    margin-bottom: 30px;
+}
+.p-tech{
+    width: 765px;
+    font-size: 20px;
+}
