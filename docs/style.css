@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    margin-bottom: 150px;
+}
 body{
     max-width: 1280px;
     margin: 0 auto;
@@ -65,22 +68,24 @@ a{
 .technologies-text{
     text-align: center;
     font-size: 50px;
+    margin-bottom: 85px;
 }
 .container-tech{
     display: flex;
     flex-direction: column;
     
+    
 }
 .technologies-logos{
     width: 150px;
     display: inline-block;
-    
+    margin-right: 50px;
+    padding-bottom: 10px;
 }
 .tech-itens{
     display: flex;
     flex-wrap: wrap;
-    
-    
+
 }
 .box-item{
     display: flex;
@@ -91,4 +96,10 @@ a{
 .p-tech{
     width: 765px;
     font-size: 20px;
+    font-family: 'Public Sans', sans-serif;
+}
+.tech-title{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 15px;
 }
