@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -11,6 +13,8 @@ body{
     margin: 0 auto;
     font-family: 'Lilita One', cursive; 
     background-color: #E7E7E7;
+    width: 100vh;
+    height: 100vh;
 }
 
 strong{
@@ -20,6 +24,9 @@ strong{
 a{
     text-decoration: none;
     color: #000000;
+}
+main{
+    
 }
 .container,.logo-portfolio-container{
     display: flex;
@@ -65,41 +72,44 @@ a{
 .header-img{
    width: 800px;
 }
-.technologies-text{
+.tech-title{
     text-align: center;
-    font-size: 50px;
     margin-bottom: 85px;
+    font-size: 50px;
 }
-.container-tech{
+.tech-img{
+    width: 150px;
+    margin-right: 36px;
+}
+
+.tech-container{
     display: flex;
     flex-direction: column;
-    
-    
 }
-.technologies-logos{
-    width: 150px;
-    display: inline-block;
-    margin-right: 50px;
-    padding-bottom: 10px;
-}
-.tech-itens{
+.tech-item{
     display: flex;
-    flex-wrap: wrap;
+    padding-bottom: 38px;
+    margin-bottom: 38px;
+    border-bottom: 6px solid #D9D9D9 ;
+}
 
-}
-.box-item{
+.center{
     display: flex;
-    width: 100%;
-    border-bottom: #D9D9D9 4px solid;
-    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
 }
-.p-tech{
-    width: 765px;
+.tech-names{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.tech-p{
+    width: 750px;
     font-size: 20px;
     font-family: 'Public Sans', sans-serif;
 }
-.tech-title{
-    text-transform: uppercase;
-    font-size: 40px;
-    margin-bottom: 15px;
+
+.tech-img:hover{
+    opacity: 0.7;
+    transition: 200ms;
 }
